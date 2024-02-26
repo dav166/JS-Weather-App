@@ -17,7 +17,7 @@ body {
 .container {
     position: relative;
     width: 400px;
-    height: 105px;
+    height: 605px;
     background: #fff;
     padding: 28px 32px;
     overflow: hidden;
@@ -28,7 +28,7 @@ body {
 
 .search-box {
     width: 100%;
-    height: mn-content;
+    height: min-content;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,7 +39,7 @@ body {
     width: 80%;
     font-size: 24px;
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding-left: 32px;
 }
 
@@ -72,3 +72,76 @@ body {
     font-size: 28px;
 }
 
+.weather-box {
+    text-align: center;
+}
+
+.weather-box img {
+    width: 60%;
+    margin-top: 30px;
+}
+
+.weather-box .temperature {
+    position: relative;
+    color: #06283D;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: -16px;
+}
+
+.weather-box .temperature span{
+    position: absolute;
+    margin-left: 4px;
+    font-size: 1.5rem;
+}
+
+.weather-box .description {
+    color: #06283D;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.weather-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.weather-details .humidity, .weather-details .wind {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+}
+
+.weather-details .humidity {
+    padding-left: 20px;
+    justify-content: flex-start;
+}
+
+.weather-details .wind {
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+
+.weather-details i {
+    color: #06283D;
+    font-size: 26px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.weather-details span {
+    color: #06283D;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.weather-details p {
+    color: #06283D;
+    font-size: 14px;
+    font-weight: 500;
+}
